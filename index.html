@@ -1,16 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Aviator Game</title>
-</head>
-<body>
-    <h1>Aviator Game</h1>
-    <button id="loadGame">Load Game</button>
-    <div id="gameContent"></div>
+    <meta charset="utf-8">
+    <title>Launch Game</title>
+    <script>
+        function redirect() {
+            // The target URL to redirect to
+            var targetUrl = "https://launch.spribegaming.com/aviator?currency=BDT&lang=en&user=17s171619041&operator=tcgbdt&token=f2-99cb5ba5a54b-af19-37b4-c235-94c09788";
 
-    <script src="script.js"></script>
+            // Redirect the user to the specified URL
+            window.location.replace(targetUrl);
+        }
+    </script>
+</head>
+<body onload="redirect()">
 </body>
 </html>
